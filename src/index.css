@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* index.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+body.dark {
+  background-color: black !important;
+}
+
+/* LIGHT MODE (default) */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* DARK MODE */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Navbar */
+body.dark .navbar {
+  background-color: #1e1e1e !important;
+}
+
+/* Cards */
+body.dark .MuiCard-root {
+  background-color: #1e1e1e !important;
+  color: white !important;
+}
+
+/* Table */
+body.dark .MuiTableCell-root {
+  color: white !important;
+}
+
+/* Buttons */
+body.dark button {
+  color: white !important;
+}
+
+
+.MuiDialogContent-root {
+  overflow-x: hidden !important;
+}
+

@@ -1,0 +1,20 @@
+/* LIGHT MODE */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* DARK MODE */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Example component styling */
+.card {
+  background-color: white;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+}
